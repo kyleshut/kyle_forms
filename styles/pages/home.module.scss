@@ -3,10 +3,7 @@
     width: 100vw;
     height: 100vh;
 }
-.content_container{
-width: 85%;
-margin: 0 auto;
-}
+
 .heading_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -17,7 +14,5 @@ margin: 0 auto;
     text-align: center;
     color: white;
     border-radius: 15px;
-    margin-top: 40px;
-    background-color: $color-primary;
+    margin-top: 60px;
 }
-

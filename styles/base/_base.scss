@@ -27,3 +27,14 @@ a {
     color: inherit;
     text-decoration: none;
 }
+input,
+select,
+textarea {
+    color: black;
+    padding-left: 4px;
+}
+
+textarea:focus,
+input:focus {
+    color: black;
+}

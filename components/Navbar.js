@@ -36,13 +36,13 @@ export default function Example() {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt="Workflow"
+                    src="https://www.latest.acvauctions.com/img/acv-logo.d2b31c99.png"
+                    alt="ACV"
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt="Workflow"
+                    src="https://www.latest.acvauctions.com/img/acv-logo.d2b31c99.png"
+                    alt="ACV"
                   />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
@@ -69,7 +69,7 @@ export default function Example() {
                   className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 >
                   <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
+                  <BellIcon className="h-7 w-7" aria-hidden="true" />
                 </button>
 
                 {/* Profile dropdown */}
@@ -78,8 +78,8 @@ export default function Example() {
                     <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                       <span className="sr-only">Open user menu</span>
                       <img
-                        className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        className="h-10 w-10 rounded-full"
+                        src="https://media-exp1.licdn.com/dms/image/C4E03AQFtQ766Im3hfw/profile-displayphoto-shrink_400_400/0/1623207318551?e=1653523200&v=beta&t=ASC3KkjGxl5HNKKIdq3LKX2VWAdk-1qejvAY4ZbfrH0"
                         alt=""
                       />
                     </Menu.Button>
