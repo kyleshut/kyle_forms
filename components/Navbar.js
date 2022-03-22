@@ -7,7 +7,6 @@ const navigation = [
   { name: 'User Form', href: '/', current: true },
   { name: 'Users Table', href: '/users_table', current: false },
   { name: 'My Resume', href: 'https://kyle-forms.s3.amazonaws.com/Kyle_Shuttleworth_Resume.pdf', current: false },
-  { name: 'Calendar', href: '#', current: false },
 ]
 
 function classNames(...classes) {
