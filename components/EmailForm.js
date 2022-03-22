@@ -1,5 +1,6 @@
 import email_form from '../styles/components/_email_form.module.scss'
 import React, { useState } from 'react';
+import Home from '../pages';
 function EmailForm() {
 const [email, setEmail] = useState("");
 const [firstName, setFirstName] = useState("");
@@ -32,9 +33,9 @@ const [lastName, setLastName] = useState("");
   return (
     <div className={email_form.form}>
         <div className={email_form.form_content}>
-        <div className={email_form.form_content_heading}>Create a user: </div>
+        <div className={email_form.form_content_heading}>Create A User</div>
         <form className={email_form.form_content_construct} onSubmit={handleSubmit}>
-        <label>
+        <label className = {email_form.form_content_construct_label}>
             Enter Email:   
         </label>
         <input 
@@ -42,7 +43,7 @@ const [lastName, setLastName] = useState("");
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           />
-          <label>
+          <label className = {email_form.form_content_construct_label}>
             Enter First Name:   
           </label>
           <input 
@@ -50,7 +51,7 @@ const [lastName, setLastName] = useState("");
           value={firstName}
           onChange={(e) => setFirstName(e.target.value)}
           />
-          <label>
+          <label className = {email_form.form_content_construct_label}>
             Enter Last Name: 
           </label>  
           <input 

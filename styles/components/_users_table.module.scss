@@ -1,0 +1,18 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+.section{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 0px;
+    //background-color: $color-primary;
+    background-color: transparent;
+    color: #c9cad1;
+}
+.container{
+    margin: 0 auto;
+}
+
+.table_header{
+    background-image: linear-gradient(to bottom right, #9e1c96, #620794);
+}
