@@ -4,10 +4,12 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'User Form', href: '/', current: true },
+  { name: 'User Form', href: '/', current: false },
   { name: 'Users Table', href: '/users_table', current: false },
   { name: 'My Resume', href: 'https://kyle-forms.s3.amazonaws.com/Kyle_Shuttleworth_Resume.pdf', current: false },
 ]
+
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')

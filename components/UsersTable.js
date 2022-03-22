@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Home from '../pages';
 function UsersTable() {
     const [users, setUsers] = useState([]);
+    const [loading, setLoading] = useState(false)
     useEffect(()=>{
         const fetchData = async () => {
             try {
@@ -20,6 +21,7 @@ function UsersTable() {
         }
         fetchData().then((data)=>{
             setUsers(JSON.parse(data))
+            setLoading(true)
         })
     },[])
 
@@ -30,7 +32,7 @@ function UsersTable() {
     //         console.log(user)
     //     })
     // },[users])
-
+  if(loading){
   return (
     <div>
         <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
@@ -144,6 +146,11 @@ function UsersTable() {
         </section>
     </div>
   )
+
+}
+else{
+    return <div></div>
+}
 }
 
 export default UsersTable
