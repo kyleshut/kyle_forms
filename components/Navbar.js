@@ -7,6 +7,7 @@ const navigation = [
   { name: 'User Form', href: '/', current: false },
   { name: 'Users Table', href: '/users_table', current: false },
   { name: 'My Resume', href: 'https://kyle-forms.s3.amazonaws.com/Kyle_Shuttleworth_Resume.pdf', current: false },
+  { name: 'Software Architecture', href: 'https://kyle-forms.s3.amazonaws.com/Kyle-Forms-Architecture.pdf', current: false },
 ]
 
 
